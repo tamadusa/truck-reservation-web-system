@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+	
+	<error-page>
+    	<error-code>404</error-code>
+    	<location>/WEB-INF/error/404.jsp</location>
+  	</error-page>
+  	
+  	<error-page>
+    	<error-code>500</error-code>
+    	<location>/WEB-INF/error/500.jsp</location>
+  	</error-page>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>app.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<servlet-class>app.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern>/Index</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EnterpriseAll</servlet-name>
+		<servlet-class>app.EnterpriseAll</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EnterpriseAll</servlet-name>
+		<url-pattern>/EnterpriseAll</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserAll</servlet-name>
+		<servlet-class>app.UserAll</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserAll</servlet-name>
+		<url-pattern>/UserAll</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserDetail</servlet-name>
+		<servlet-class>app.UserDetail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserDetail</servlet-name>
+		<url-pattern>/UserDetail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>app.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>AdminUserDetail</servlet-name>
+		<servlet-class>app.AdminUserDetail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminUserDetail</servlet-name>
+		<url-pattern>/AdminUserDetail</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>EnterpriseInsert</servlet-name>
+		<servlet-class>app.EnterpriseInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EnterpriseInsert</servlet-name>
+		<url-pattern>/EnterpriseInsert</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>UserInsert</servlet-name>
+		<servlet-class>app.UserInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInsert</servlet-name>
+		<url-pattern>/UserInsert</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>EnterpriseUpdate</servlet-name>
+		<servlet-class>app.EnterpriseUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EnterpriseUpdate</servlet-name>
+		<url-pattern>/EnterpriseUpdate</url-pattern>
+	</servlet-mapping>  
+	
+	 <servlet>
+		<servlet-name>EnterpriseDelete</servlet-name>
+		<servlet-class>app.EnterpriseDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EnterpriseDelete</servlet-name>
+		<url-pattern>/EnterpriseDelete</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>UserUpdate</servlet-name>
+		<servlet-class>app.UserUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserUpdate</servlet-name>
+		<url-pattern>/UserUpdate</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>UserDelete</servlet-name>
+		<servlet-class>app.UserDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserDelete</servlet-name>
+		<url-pattern>/UserDelete</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>ReservationList</servlet-name>
+		<servlet-class>app.ReservationList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReservationList</servlet-name>
+		<url-pattern>/ReservationList</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>ReservationInsert</servlet-name>
+		<servlet-class>app.ReservationInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReservationInsert</servlet-name>
+		<url-pattern>/ReservationInsert</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>ReservationUpdate</servlet-name>
+		<servlet-class>app.ReservationUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReservationUpdate</servlet-name>
+		<url-pattern>/ReservationUpdate</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet>
+		<servlet-name>ReservationDelete</servlet-name>
+		<servlet-class>app.ReservationDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReservationDelete</servlet-name>
+		<url-pattern>/ReservationDelete</url-pattern>
+	</servlet-mapping>  
+	
+	
+	
+	
+</web-app>
+
